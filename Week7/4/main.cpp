@@ -17,10 +17,10 @@ int main()
     char s[MAX_STRING_LEN], str1[MAX_STRING_LEN/2], str2[MAX_STRING_LEN/2], new_s[MAX_STRING_LEN*2]= {'\0'};
     cin.getline(s, MAX_STRING_LEN);
     cout << "Replace: ";
-    cin.getline(str1, MAX_STRING_LEN);
+    cin.getline(str1, MAX_STRING_LEN/2);
     int str1_len = strlen(str1);
     cout << "with: ";
-    cin.getline(str2, MAX_STRING_LEN);
+    cin.getline(str2, MAX_STRING_LEN/2);
     char *ptr = s, *last_ptr = s;
     while (ptr = strstr(ptr, str1)){
         *ptr = '\0';
