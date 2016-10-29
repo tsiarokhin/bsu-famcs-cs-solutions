@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1477749308 source:/run/media/termax/60FD50A227F03C2B/terehin/Week8/1/main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+
