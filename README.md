@@ -1,7 +1,7 @@
 # bsu-famcs-cs-solutions
 My solutions for CS lessons at Belorusian State University
 
-Teacher: Guseinova A.S.
+Teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561)
 
 ## Contents
   * **Week 1** — Basic Math
