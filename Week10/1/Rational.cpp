@@ -57,18 +57,12 @@ bool Rational::greater(Rational &rhs)
 {
     reduce();
     rhs.reduce();
-    if (b == rhs.b)
-        return a > rhs.a;
-    else
-        return b < rhs.b;
+    return (a*rhs.b > b*rhs.a);
 }
 
 bool Rational::less(Rational &rhs)
 {
     reduce();
     rhs.reduce();
-    if (b == rhs.b)
-        return a < rhs.a;
-    else
-        return b > rhs.b;
+    return (a*rhs.b < b*rhs.a);
 }

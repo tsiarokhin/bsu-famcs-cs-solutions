@@ -12,3 +12,16 @@
 	<cstring>
 	<iostream>
 
+1479643388 source:e:\terehin\week10\2\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"Train.h"
+
+1479713383 e:\terehin\week10\2\train.h
+
+1479713405 source:e:\terehin\week10\2\train.cpp
+	"Train.h"
+	<cstring>
+	<iostream>
+

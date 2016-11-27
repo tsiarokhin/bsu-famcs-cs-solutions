@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Train.cpp" />
+		<Unit filename="Train.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<envvars />

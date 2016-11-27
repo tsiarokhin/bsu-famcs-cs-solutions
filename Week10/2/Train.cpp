@@ -11,6 +11,10 @@ Train::Train(int rt, const char* dst, bool expr)
     dest = new char[strlen(dst)+1];
     strcpy(dest, dst);
 }
+Train::~Train()
+{
+    delete[] dest;
+}
 
 void Train::print() const
 {
