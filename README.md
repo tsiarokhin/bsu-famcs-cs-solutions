@@ -13,3 +13,4 @@ Teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561)
   * **Week 7-8** — C strings
   * **Week 9, Test 1** — Structs, LIFO (Stack), infix and postfix forms
   * **Week 10** — Classes, objects, constructors
+  * **Week 11** — Classes, operator overloading
