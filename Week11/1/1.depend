@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1480273092 source:/run/media/termax/60FD50A227F03C2B/terehin/Week11/1/main.cpp
+	<iostream>
+	"Set.h"
+
+1480273578 /run/media/termax/60FD50A227F03C2B/terehin/Week11/1/Set.h
+
+1480276325 source:/run/media/termax/60FD50A227F03C2B/terehin/Week11/1/Set.cpp
+	"Set.h"
+	<iostream>
+	<cstring>
+
