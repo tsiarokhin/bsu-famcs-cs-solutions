@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1480869259 source:/run/media/termax/60FD50A227F03C2B/terehin/Week12/1/main.cpp
+	<iostream>
+	<Man.h>
+	<Student.h>
+	<fstream>
+
+1480866479 /run/media/termax/60FD50A227F03C2B/terehin/Week12/1/Man.h
+	<string>
+
+1480869474 source:/run/media/termax/60FD50A227F03C2B/terehin/Week12/1/Man.cpp
+	"Man.h"
+	<iostream>
+
+1480866867 source:/run/media/termax/60FD50A227F03C2B/terehin/Week12/1/Student.cpp
+	"Student.h"
+	<iostream>
+
+1480866801 /run/media/termax/60FD50A227F03C2B/terehin/Week12/1/Student.h
+	<Man.h>
+

@@ -1,0 +1,8 @@
+7
+s Maxim 18 1 115.5 1
+m Zhenya 15 1 122.5
+m Vanya 15 1 62
+m Anton 15 1 70
+s Alexander 17 1 41.1 1
+s Robert 16 1 50.6 1
+s Pavel 20 1 85.3 3
