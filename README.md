@@ -16,3 +16,4 @@ Teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561)
   * **Week 11** — Classes, operator overloading
   * **Week 12** — Inheritance, virtual functions
   * **Week 13** — Abstract classes, purely virtual functions
+  * **Test 2**  — OOP
