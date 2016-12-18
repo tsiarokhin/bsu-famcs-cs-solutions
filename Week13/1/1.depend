@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1481520894 source:/run/media/termax/60FD50A227F03C2B/terehin/Week13/1/Linear.cpp
+	"Linear.h"
+
+1481520806 /run/media/termax/60FD50A227F03C2B/terehin/Week13/1/Linear.h
+	"Series.h"
+
+1481520483 /run/media/termax/60FD50A227F03C2B/terehin/Week13/1/Series.h
+
+1481520245 source:/run/media/termax/60FD50A227F03C2B/terehin/Week13/1/Series.cpp
+	"Series.h"
+
+1481521843 source:/run/media/termax/60FD50A227F03C2B/terehin/Week13/1/main.cpp
+	<iostream>
+	"Linear.h"
+	"Exponential.h"
+
+1481522207 source:/run/media/termax/60FD50A227F03C2B/terehin/Week13/1/Exponential.cpp
+	"Exponential.h"
+	<math.h>
+
+1481521184 /run/media/termax/60FD50A227F03C2B/terehin/Week13/1/Exponential.h
+	"Series.h"
+
