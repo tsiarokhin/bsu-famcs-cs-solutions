@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1482071546 source:/run/media/termax/60FD50A227F03C2B/terehin/Week13/2/Array.cpp
+	"Array.h"
+
+1482071387 /run/media/termax/60FD50A227F03C2B/terehin/Week13/2/Array.h
+	<iostream>
+
+1482072579 source:/run/media/termax/60FD50A227F03C2B/terehin/Week13/2/main.cpp
+	<iostream>
+	"Array.h"
+	"Polinom.h"
+
+1482071515 /run/media/termax/60FD50A227F03C2B/terehin/Week13/2/Polynom.h
+	"Array.h"
+	<cmath>
+
+1482071524 source:/run/media/termax/60FD50A227F03C2B/terehin/Week13/2/Polynom.cpp
+	"Polynom.h"
+
+1482072826 /run/media/termax/60FD50A227F03C2B/terehin/Week13/2/Polinom.h
+	"Array.h"
+	<cmath>
+
+1482072890 source:/run/media/termax/60FD50A227F03C2B/terehin/Week13/2/Polinom.cpp
+	"Polinom.h"
+
