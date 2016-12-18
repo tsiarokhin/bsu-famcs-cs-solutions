@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1481530650 source:/run/media/termax/60FD50A227F03C2B/terehin/Test2/main.cpp
+	<iostream>
+	<fstream>
+	"Vehicle.h"
+	"Car.h"
+	"Bus.h"
+
+1481529289 source:/run/media/termax/60FD50A227F03C2B/terehin/Test2/Car.cpp
+	"Car.h"
+	<iostream>
+
+1481529274 /run/media/termax/60FD50A227F03C2B/terehin/Test2/Car.h
+	"Vehicle.h"
+	<iostream>
+
+1481530125 /run/media/termax/60FD50A227F03C2B/terehin/Test2/Vehicle.h
+	<string>
+	<iostream>
+
+1481530144 source:/run/media/termax/60FD50A227F03C2B/terehin/Test2/Vehicle.cpp
+	"Vehicle.h"
+
+1481529282 source:/run/media/termax/60FD50A227F03C2B/terehin/Test2/Bus.cpp
+	"Bus.h"
+	<iostream>
+
+1481529262 /run/media/termax/60FD50A227F03C2B/terehin/Test2/Bus.h
+	"Vehicle.h"
+	<iostream>
+

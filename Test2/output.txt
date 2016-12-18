@@ -1,0 +1,15 @@
+Car (LADA - 2107):
+	Price: 300
+	Year: 2012
+	Max. speed: 120
+	Eng. volume: 1.5
+Car (LADA - 2105):
+	Price: 819
+	Year: 2009
+	Max. speed: 103
+	Eng. volume: 1.3
+Bus (MAZ - 103):
+	Price: 30000
+	Year: 2014
+	Max. passengers: 150
+	Eng. volume: 47.5
