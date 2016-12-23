@@ -1,5 +1,5 @@
 # bsu-famcs-cs-solutions
-My solutions for CS lessons at Belorusian State University
+My solutions for CS lessons at Belarusian State University
 
 Teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561)
 
