@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1479713085 source:e:\terehin\week10\1\rational.cpp
+	<iostream>
+	"Rational.h"
+
+1479566020 h"
+
+1479569132 source:e:\terehin\week10\1\main.cpp
+	<iostream>
+	"Rational.h"
+
+1479568221 e:\terehin\week10\1\rational.h
+
+1479569132 source:/run/media/termax/60FD50A227F03C2B/terehin/Week10/1/main.cpp
+	<iostream>
+	"Rational.h"
+
+1479568221 /run/media/termax/60FD50A227F03C2B/terehin/Week10/1/Rational.h
+
+1479568566 source:/run/media/termax/60FD50A227F03C2B/terehin/Week10/1/Rational.cpp
+	<iostream>
+	"Rational.h"
+

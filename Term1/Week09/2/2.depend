@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1479106434 source:e:\terehin\week9\2\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+

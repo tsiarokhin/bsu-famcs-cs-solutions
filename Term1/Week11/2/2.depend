@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1480320326 source:e:\terehin\week11\2\fraction.cpp
+	"Fraction.h"
+	<iostream>
+
+1480320326 
+
+1480320233 e:\terehin\week11\2\fraction.h
+
+1480319769 source:e:\terehin\week11\2\main.cpp
+	<iostream>
+	<iomanip>
+	"Fraction.h"
+
+1480319769 h"
+
+1480849443 source:/run/media/termax/60FD50A227F03C2B/terehin/Week11/2/main.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	"Fraction.h"
+
+1480848272 /run/media/termax/60FD50A227F03C2B/terehin/Week11/2/Fraction.h
+	<iostream>
+
+1480848297 source:/run/media/termax/60FD50A227F03C2B/terehin/Week11/2/Fraction.cpp
+	"Fraction.h"
+	<iostream>
+
