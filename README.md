@@ -1,9 +1,13 @@
 # bsu-famcs-cs-solutions
 My solutions for CS lessons at Belarusian State University
 
-Teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561)
+# **Term 2**: Programming (teacher: I. Zhurahovskij)
+  * **Week 1** — STL Containers
 
-## Contents
+# **Term 2**: Practice (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
+  * **Week 1** — Template classes
+
+# **Term 1:** Programming (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
   * **Week 1** — Basic Math
   * **Week 2** — For/while loops, math
   * **Week 3** — Integer math
