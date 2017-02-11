@@ -2,7 +2,8 @@
 My solutions for CS lessons at Belarusian State University
 
 ## **Term 2**: Programming (teacher: I. Zhurahovskij)
-  * **Week 1** — STL Containers
+  * **Lesson 0** — STL Containers
+  * **Lesson 1** — STL Algorithms
 
 ## **Term 2**: Practice (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
   * **Week 1** — Template classes
