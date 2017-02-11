@@ -1,7 +1,7 @@
 # bsu-famcs-cs-solutions
 My solutions for CS lessons at Belarusian State University
 
-## **Term 2**: Programming (teacher: I. Zhurahovskij)
+## **Term 2**: Programming (teacher: I. Zhurakhouski)
   * **Lesson 0** — STL Containers
   * **Lesson 1** — STL Algorithms
 
