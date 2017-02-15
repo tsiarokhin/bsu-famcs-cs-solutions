@@ -9,6 +9,7 @@
 #include <iterator>
 #include <set>
 #include <map>
+#include <functional>
 
 using namespace std;
 
@@ -51,10 +52,18 @@ void Tasks_2_and_4(vector<int>& v)
     copy_if(v.begin(), v.end(), out_it, greater_than(5));
 }
 
+void Task_3(vector<int>& v)
+{
+    cout << "\n\nTask 3:\nEven-first sorted: ";
+    ostream_iterator<int> out_it (cout," ");
+    auto greater_binded = bind(greater<int>(), placeholders::_1, 5);
+    copy_if(v.begin(), v.end(), out_it, greater_binded);
+}
+
 void Task_5()
 {
     cout << "\n\nЗадание 5:";
-    ostream_iterator<string> out_it (cout," ");
+    ostream_iterator<string> out_it (cout,", ");
     set<string> river_bank{"пескарь", "мидия", "рак"};
     set<string> at_the_depth{"бычок", "окунь", "мидия"};
 
@@ -105,6 +114,7 @@ int main()
     print_vector(v);
     Task_1(v);
     Tasks_2_and_4(v);
+    Task_3(v);
     Task_5();
     Task_6();
 
