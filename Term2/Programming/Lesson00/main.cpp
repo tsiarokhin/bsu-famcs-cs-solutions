@@ -1,3 +1,8 @@
+/*
+    Copyright (c) 2017 Maxim Teryokhin
+    This code is licensed under MIT. See LICENSE file for more details.
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <string>
