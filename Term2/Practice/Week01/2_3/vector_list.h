@@ -1,5 +1,5 @@
-#include <iostream>
-//#include <iterator>
+//#include <iostream>
+#include <iterator>
 
 #ifndef VECTOR_LIST_H_INCLUDED
 #define VECTOR_LIST_H_INCLUDED
