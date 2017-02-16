@@ -1,3 +1,6 @@
+/*
+    This code is not written by me. I take no responsibility for it
+*/
 #include "./vect.h"
 #include <iostream>
 

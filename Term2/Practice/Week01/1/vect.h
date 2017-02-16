@@ -1,3 +1,7 @@
+/*
+    This code is not written by me. I take no responsibility for it
+*/
+
 #ifndef VECT_H_INCLUDED
 #define VECT_H_INCLUDED
 #include <assert.h>
@@ -76,11 +80,6 @@ public:
     vectorex(int n = 10)
         : vector<T>::vector(n)
     {
-        assert(n > 0);
-        this->size = n;
-        this->actual_size = n;
-        this->p = new T[this->actual_size];
-        assert(this->p != 0);
     }
     T& operator[](int i)
     {
