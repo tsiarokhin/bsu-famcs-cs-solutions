@@ -4,9 +4,12 @@ My solutions for CS lessons at Belarusian State University
 ## **Term 2**: Programming (teacher: I. Zhurakhouski)
   * **Lesson 0** — STL Containers
   * **Lesson 1** — STL Algorithms
+  * **Lesson 2** — STL multimap
+  * **Lesson 3** — WinAPI 😢😞😢
 
 ## **Term 2**: Practice (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
   * **Week 1** — Template classes
+  * **Week 2** — STL containers and algorithms
 
 ## **Term 1:** Programming (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
   * **Week 1** — Basic Math
