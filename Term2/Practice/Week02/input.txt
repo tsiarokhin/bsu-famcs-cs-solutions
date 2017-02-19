@@ -1,0 +1,8 @@
+2,round,roses,begonias,tulips
+4,square,tulips,asters,pinks,forget-me-not
+6,rectangle,bluebell,geranium,peonies,flags
+1,rectangle,roses,asters,lilies
+5,round,chrysanthemum,peonies,roses
+7,square,tulips,peonies,asters 
+3,round,flags,lilies
+
