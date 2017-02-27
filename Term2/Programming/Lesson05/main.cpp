@@ -143,6 +143,8 @@ void OnPaint(HWND _hDialog)
     sprintf(text, "%d", TIME_SCHEDULE[timerState]);
     DrawText(hDeviceContext, text, -1, &textRectangle, DT_SINGLELINE | DT_CENTER | DT_VCENTER);
     /* END TIME */
+    ValidateRect(_hDialog, nullptr);
+    EndPaint(_hDialog, &_paintstruct);
 }
 
 
