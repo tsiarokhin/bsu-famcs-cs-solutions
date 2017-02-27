@@ -5,7 +5,9 @@ My solutions for CS lessons at Belarusian State University
   * **Lesson 0** — STL Containers
   * **Lesson 1** — STL Algorithms
   * **Lesson 2** — STL multimap
-  * **Lesson 3** — WinAPI 😢😞😢
+  * **Lesson 3** — 😢 WinAPI basic controls
+  * **Lesson 4** — 😢 WinAPI dynamic control creation: slider, image
+  * **Lesson 5** — 😢 WinAPI timers, painting
 
 ## **Term 2**: Practice (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
   * **Week 1** — Template classes
