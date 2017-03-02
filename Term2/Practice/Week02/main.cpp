@@ -6,19 +6,23 @@
 #include <algorithm>
 #include <fstream>
 #include <iostream>
+#include <iterator>
 #include <set>
+#include <map>
 #include <string>
 #include <vector>
 
 using namespace std;
-
-ifstream fin("input.txt");
 
 struct Flowerbed {
     int id;
     string shape;
     set<string> flowers;
 
+    Flowerbed()
+        : flowers()
+    {
+    }
     Flowerbed(int id, string shape, set<string> flowers)
         : id(id)
         , shape(shape)
@@ -26,66 +30,88 @@ struct Flowerbed {
     {
     }
 
-    void print()
-    {
-        cout << "{ " << id << " | " << shape << " |: ";
-        for (auto it = flowers.begin(); it != flowers.end(); it++)
-            cout << *it << ", ";
-        cout << "}\n";
-    }
+    friend istream& operator>>(istream& in, Flowerbed& a);
+    friend ostream& operator<<(ostream& out, const Flowerbed& a);
 };
 
-set<string> comma_separated_string_to_set(const string& s)
+istream& operator>>(istream& in, Flowerbed& a)
 {
+    a = Flowerbed();
+    string s;
+    in >> a.id;
+    in.ignore();
+    getline(in, a.shape, ',');
+    getline(in, s);
+
     int prev_pos = 0, cur_pos = 0;
-    set<string> res;
     while ((cur_pos = s.find(",", prev_pos)) >= 0) {
-        res.insert(s.substr(prev_pos, cur_pos - prev_pos));
+        a.flowers.insert(s.substr(prev_pos, cur_pos - prev_pos));
         prev_pos = cur_pos + 1;
     }
-    res.insert(s.substr(prev_pos, s.size()));
-    return res;
+    a.flowers.insert(s.substr(prev_pos, s.size()));
+
+    return in;
 }
 
-void sort_by_id(vector<Flowerbed>& flowerbeds)
+ostream& operator<<(ostream& out, const Flowerbed& a)
 {
-    sort(flowerbeds.begin(), flowerbeds.end(), [](const Flowerbed& a, const Flowerbed& b) {
-        return a.id < b.id;
-    });
-}
-
-void sort_by_shape(vector<Flowerbed>& flowerbeds)
-{
-    sort(flowerbeds.begin(), flowerbeds.end(), [](const Flowerbed& a, const Flowerbed& b) {
-        return a.shape < b.shape;
-    });
+    out << "{ " << a.id << " | " << a.shape << " |: ";
+    for (auto it = a.flowers.begin(); it != a.flowers.end(); it++)
+        out << *it << ", ";
+    out << "}";
+    return out;
 }
 
 int main()
 {
+    ifstream fin("input.txt");
+    istream_iterator<Flowerbed> FB_in(fin);
+    istream_iterator<Flowerbed> end_in;
+    ostream_iterator<Flowerbed> FB_out(cout, "\n");
+    ostream_iterator<string> str_out(cout, "\n");
     vector<Flowerbed> flowerbeds;
-    int t_id;
-    string t_shape;
-    string t_flowers;
-
     // TASK 1
-    while (fin >> t_id) {
-        fin.ignore();
-        getline(fin, t_shape, ',');
-        getline(fin, t_flowers);
-        flowerbeds.push_back(Flowerbed(t_id, t_shape, comma_separated_string_to_set(t_flowers)));
-    }
+    copy(FB_in, end_in, back_inserter(flowerbeds));
 
     // TASK 2
+    sort(flowerbeds.begin(), flowerbeds.end(), [](const Flowerbed& a, const Flowerbed& b) {
+        return a.id < b.id;
+    });
     cout << "SORTED BY ID:\n";
-    sort_by_id(flowerbeds);
-    for (Flowerbed& x : flowerbeds)
-        x.print();
+    copy(flowerbeds.begin(), flowerbeds.end(), FB_out);
 
+    sort(flowerbeds.begin(), flowerbeds.end(), [](const Flowerbed& a, const Flowerbed& b) {
+        return a.shape < b.shape;
+    });
     cout << "\nSORTED BY SHAPE:\n";
-    sort_by_shape(flowerbeds);
-    for (Flowerbed& x : flowerbeds)
-        x.print();
+    copy(flowerbeds.begin(), flowerbeds.end(), FB_out);
+
+    //TASK 4
+    
+    set<string> different_forms;
+    for_each(flowerbeds.begin(), flowerbeds.end(), [&different_forms](const Flowerbed& a) {
+        different_forms.insert(a.shape);
+    });
+    cout << "\nDIFFERENT SHAPES:\n";
+    copy(different_forms.begin(), different_forms.end(), str_out);
+
+    
+    map<int,Flowerbed> flowerbeds_map;
+    for_each(flowerbeds.begin(), flowerbeds.end(), [&flowerbeds_map](const Flowerbed& a) {
+        flowerbeds_map.insert(make_pair(a.id, a));
+    });
+    int id;
+    cout << "\nEnter flowerbed id: ";
+    cin >> id;
+    cout << "Flowers from flowerbed #" << id << ":\n";
+    copy(flowerbeds_map[id].flowers.begin(), flowerbeds_map[id].flowers.end(), str_out);
+
+    set<string> different_flowers;
+    for_each(flowerbeds.begin(), flowerbeds.end(), [&different_flowers](const Flowerbed& a) {
+        different_flowers.insert(a.flowers.begin(), a.flowers.end());
+    });
+    cout << "\nLIST OF ALL DIFFERENT FLOWERS:\n";
+    copy(different_flowers.begin(), different_flowers.end(), str_out);
 
     return 0;
 }
