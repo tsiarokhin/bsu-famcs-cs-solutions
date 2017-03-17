@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1489728095 source:d:\maxim\cpp\bsu\week03\main.cpp
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<math.h>
+	<cstring>
+
