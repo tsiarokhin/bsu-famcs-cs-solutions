@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1489213375 source:d:\maxim\cpp\bsu\lesson07\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1489215559 d:\maxim\cpp\bsu\lesson07\resource.h
+
+1489212612 source:d:\maxim\cpp\bsu\lesson07\tabcontrol.cpp
+	"TabControl.h"
+
+1489212429 d:\maxim\cpp\bsu\lesson07\tabcontrol.h
+	<windows.h>
+	<commctrl.h>
+	<cstring>
+	<cstdio>
+	<vector>
+
+1489218655 source:d:\maxim\cpp\bsu\lesson07\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+	"TabControl.h"
+	<cmath>
+	<ctime>
+
