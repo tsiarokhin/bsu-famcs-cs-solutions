@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1490422677 source:d:\maxim\cpp\bsu\lesson0a\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<string>
+	"resource.h"
+
+1490419658 d:\maxim\cpp\bsu\lesson0a\resource.h
+
+1490419658 source:d:\maxim\cpp\bsu\lesson0a\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
