@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1490345447 source:d:\maxim\cpp\bsu\project\main.cpp
+	<windows.h>
+	<commdlg.h>
+	<commctrl.h>
+	<stdio.h>
+	<cmath>
+	"resource.h"
+	"plot_utils.h"
+	"Function.h"
+	<map>
+	<vector>
+
+1490345729 d:\maxim\cpp\bsu\project\resource.h
+
+1490345729 source:d:\maxim\cpp\bsu\project\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1490125585 d:\maxim\cpp\bsu\project\plot_utils.h
+
+1490126426 source:d:\maxim\cpp\bsu\project\function.cpp
+	"Function.h"
+
+1490126408 d:\maxim\cpp\bsu\project\function.h
+	<windows.h>
+	<cstdlib>
+
