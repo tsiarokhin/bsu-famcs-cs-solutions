@@ -1,17 +1,24 @@
 # bsu-famcs-cs-solutions
-My solutions for CS lessons at Belarusian State University
+My solutions for CS lessons at Belarusian State University. 
 
+WinAPI - 😢
 ## **Term 2**: Programming (teacher: I. Zhurakhouski)
   * **Lesson 0** — STL Containers
   * **Lesson 1** — STL Algorithms
   * **Lesson 2** — STL multimap
-  * **Lesson 3** — 😢 WinAPI basic controls
-  * **Lesson 4** — 😢 WinAPI dynamic control creation: slider, image
-  * **Lesson 5** — 😢 WinAPI timers, painting
+  * **Lesson 3** — WinAPI basic controls
+  * **Lesson 4** — WinAPI dynamic control creation: slider, image
+  * **Lesson 5** — WinAPI timers, painting
+  * **Lesson 6** — WinAPI Mouse, Keyboard, Painting
+  * **Lesson 7** — WinAPI Tab Control, List Box
+  * **Lesson A** — WinAPI RECT, Cursor, Drag and Drop
+  
 
 ## **Term 2**: Practice (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
   * **Week 1** — Template classes
   * **Week 2** — STL containers and algorithms
+  * **Week 3** — WinAPI Drawing
+  * **Project** — WinAPI Function Plotter
 
 ## **Term 1:** Programming (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
   * **Week 1** — Basic Math
