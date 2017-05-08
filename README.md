@@ -23,9 +23,9 @@ WinAPI - 😢, Assembler - 😞
   * [Week 2](Term2/Practice/Week02) — STL containers and algorithms
   * [Week 3](Term2/Practice/Week03) — WinAPI Drawing
   * [Project](Term2/Practice/Project) — WinAPI Function Plotter
-  * [Asm 1](Term2/Programming/Asm01) — Asm basics
-  * [Asm 2](Term2/Programming/Asm02) — Asm jumps, binary operations
-  * [Asm 3](Term2/Programming/Asm03) — Asm 1D and 2D arrays
+  * [Asm 1](Term2/Practice/Asm01) — Asm basics
+  * [Asm 2](Term2/Practice/Asm02) — Asm jumps, binary operations
+  * [Asm 3](Term2/Practice/Asm03) — Asm 1D and 2D arrays
 
 
 ## **Term 1:** Programming (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
