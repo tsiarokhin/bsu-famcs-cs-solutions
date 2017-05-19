@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1492591498 source:d:\maxim\cpp\bsu\programming\test02\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1492591498 d:\maxim\cpp\bsu\programming\test02\resource.h
+
+1492590580 source:d:\maxim\cpp\bsu\programming\test02\main.cpp
+	<iostream>
+	<algorithm>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+	"Particle.h"
+	<vector>
+
+1492587815 d:\maxim\cpp\bsu\programming\test02\particle.h
+	<windows.h>
+	<vector>
+
