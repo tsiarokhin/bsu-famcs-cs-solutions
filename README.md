@@ -28,7 +28,7 @@ WinAPI - 😢, Assembler - 😞
   * [Asm 1](Term2/Practice/Asm01) — Asm basics
   * [Asm 2](Term2/Practice/Asm02) — Asm jumps, binary operations
   * [Asm 3](Term2/Practice/Asm03) — Asm 1D and 2D arrays
-  * [Asm 4](Term2/Practice/Asm04) — Asm 
+  * [Asm 4](Term2/Practice/Asm04) — Asm string processing
   * [Asm 5](Term2/Practice/Asm05) — Asm string processing
 
 
