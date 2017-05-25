@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1495651483 source:d:\maxim\cpp\bsu\programming_winapi\lesson0c\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1495646534 d:\maxim\cpp\bsu\programming_winapi\lesson0c\resource.h
+
+1495651544 source:d:\maxim\cpp\bsu\programming_winapi\lesson0c\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+	<vector>
+	<cmath>
+	<string>
+
