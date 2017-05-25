@@ -13,6 +13,8 @@ WinAPI - 😢, Assembler - 😞
   * [Lesson 6](Term2/Programming/Lesson06) — WinAPI Mouse, Keyboard, Painting
   * [Lesson 7](Term2/Programming/Lesson07) — WinAPI Tab Control, List Box
   * [Lesson A](Term2/Programming/Lesson0A) — WinAPI RECT, Cursor, Drag and Drop
+  * Lesson B — Ask [Sasha](https://github.com/DzedTalash) about this (:
+  * [Lesson C](Term2/Programming/Lesson0C) — WinAPI curve plot, ball animation
   * [Lesson D](Term2/Programming/Lesson0D) — Asm basics
   * [Lesson E](Term2/Programming/Lesson0E) — Asm function calling
   * [Lesson F](Term2/Programming/Lesson0F) — Asm standalone src
@@ -26,6 +28,8 @@ WinAPI - 😢, Assembler - 😞
   * [Asm 1](Term2/Practice/Asm01) — Asm basics
   * [Asm 2](Term2/Practice/Asm02) — Asm jumps, binary operations
   * [Asm 3](Term2/Practice/Asm03) — Asm 1D and 2D arrays
+  * [Asm 4](Term2/Practice/Asm04) — Asm 
+  * [Asm 5](Term2/Practice/Asm05) — Asm string processing
 
 
 ## **Term 1:** Programming (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
