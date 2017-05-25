@@ -13,7 +13,7 @@ WinAPI - 😢, Assembler - 😞
   * [Lesson 6](Term2/Programming/Lesson06) — WinAPI Mouse, Keyboard, Painting
   * [Lesson 7](Term2/Programming/Lesson07) — WinAPI Tab Control, List Box
   * [Lesson A](Term2/Programming/Lesson0A) — WinAPI RECT, Cursor, Drag and Drop
-  * Lesson B — Ask [Sasha](https://github.com/DzedTalash) about this (:
+  * Lesson B — Ask [Sasha](https://github.com/DzedTalash) about that (:
   * [Lesson C](Term2/Programming/Lesson0C) — WinAPI curve plot, ball animation
   * [Lesson D](Term2/Programming/Lesson0D) — Asm basics
   * [Lesson E](Term2/Programming/Lesson0E) — Asm function calling
