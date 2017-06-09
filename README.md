@@ -3,8 +3,14 @@ My solutions for CS lessons at Belarusian State University.
 
 WinAPI - 😢, Assembler - 😞
 
+## **Term 2**: Summer practice (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
+  * ***Day 1***: [task 1](Term2/SummerPractice/1_1), [task 2](Term2/SummerPractice/1_2) — WinAPI + ASM
+  * ***Day 2***: [task 1](Term2/SummerPractice/2_1), [task 2](Term2/SummerPractice/2_2) — ASM
+  * ***Day 3***: [task 1](Term2/SummerPractice/3_1), [task 2](Term2/SummerPractice/3_2), [task 3](Term2/SummerPractice/3_3), [task 4](Term2/SummerPractice/3_4) — ASM
+
+
 ## **Term 2**: Programming (teacher: I. Zhurakhouski)
-  * [Lesson 0](Term2/Programming/Lesson00)  — STL Containers
+  * [Lesson 0](Term2/Programming/Lesson00) — STL Containers
   * [Lesson 1](Term2/Programming/Lesson01) — STL Algorithms
   * [Lesson 2](Term2/Programming/Lesson02) — STL multimap
   * [Lesson 3](Term2/Programming/Lesson03) — WinAPI basic controls
@@ -18,6 +24,7 @@ WinAPI - 😢, Assembler - 😞
   * [Lesson D](Term2/Programming/Lesson0D) — Asm basics
   * [Lesson E](Term2/Programming/Lesson0E) — Asm function calling
   * [Lesson F](Term2/Programming/Lesson0F) — Asm standalone src
+  * [Lesson 10](Term2/Programming/Lesson10) — Asm string processing
 
 
 ## **Term 2**: Practice (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
