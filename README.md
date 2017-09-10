@@ -1,15 +1,18 @@
-# bsu-famcs-cs-solutions
+﻿# bsu-famcs-cs-solutions
 My solutions for CS lessons at Belarusian State University. 
 
-WinAPI - 😢, Assembler - 😞
 
-## **Term 2**: Summer practice (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
+## **Term 3**: Programming (teacher: [Сакович В.Ю.](https://fpmi.bsu.by/main.aspx?guid=32521))
+  * [Lab 1](Term3/Lab01) — Polynomial container class + WinAPI interface
+
+
+## **Term 2**: Summer practice (teacher: [Гусейнова А.С.](https://fpmi.bsu.by/main.aspx?guid=32561))
   * ***Day 1***: [task 1](Term2/SummerPractice/1_1), [task 2](Term2/SummerPractice/1_2) — WinAPI + ASM
   * ***Day 2***: [task 1](Term2/SummerPractice/2_1), [task 2](Term2/SummerPractice/2_2) — ASM
   * ***Day 3***: [task 1](Term2/SummerPractice/3_1), [task 2](Term2/SummerPractice/3_2), [task 3](Term2/SummerPractice/3_3), [task 4](Term2/SummerPractice/3_4) — ASM
 
 
-## **Term 2**: Programming (teacher: I. Zhurakhouski)
+## **Term 2**: Programming (teacher: И. Жураховский)
   * [Lesson 0](Term2/Programming/Lesson00) — STL Containers
   * [Lesson 1](Term2/Programming/Lesson01) — STL Algorithms
   * [Lesson 2](Term2/Programming/Lesson02) — STL multimap
@@ -27,7 +30,7 @@ WinAPI - 😢, Assembler - 😞
   * [Lesson 10](Term2/Programming/Lesson10) — Asm string processing
 
 
-## **Term 2**: Practice (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
+## **Term 2**: Practice (teacher: [Гусейнова А.С.](https://fpmi.bsu.by/main.aspx?guid=32561))
   * [Week 1](Term2/Practice/Week01) — Template classes
   * [Week 2](Term2/Practice/Week02) — STL containers and algorithms
   * [Week 3](Term2/Practice/Week03) — WinAPI Drawing

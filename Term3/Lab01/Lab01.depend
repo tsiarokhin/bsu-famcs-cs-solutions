@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1505040909 source:d:\dropbox\bsu\labs\lab01\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1505040909 d:\dropbox\bsu\labs\lab01\resource.h
+
+1505040673 source:d:\dropbox\bsu\labs\lab01\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	"resource.h"
+	"KPolynomial.h"
+
+1505040610 d:\dropbox\bsu\labs\lab01\kpolynomial.h
+	<map>
+	<string>
+	<iostream>
+	<sstream>
+
