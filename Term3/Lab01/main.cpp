@@ -13,9 +13,12 @@
 
 using namespace std;
 
+/// CHOOSE COEFFICIENT TYPE^
+#define C_TYPE int
+
 HINSTANCE hInst;
-KPolynomial<int> POLY = {{1, 2}, {-2, 1}, {1, 0}};
-KPolynomial<int> POLY2;
+KPolynomial<C_TYPE> POLY = {{1, 2}, {-2, 1}, {1, 0}};
+KPolynomial<C_TYPE> POLY2;
 
 void UpdateFields(HWND hwndDlg)
 {

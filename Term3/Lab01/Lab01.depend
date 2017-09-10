@@ -7,7 +7,7 @@
 
 1505040909 d:\dropbox\bsu\labs\lab01\resource.h
 
-1505040673 source:d:\dropbox\bsu\labs\lab01\main.cpp
+1505041487 source:d:\dropbox\bsu\labs\lab01\main.cpp
 	<windows.h>
 	<commctrl.h>
 	<stdio.h>
@@ -16,7 +16,7 @@
 	"resource.h"
 	"KPolynomial.h"
 
-1505040610 d:\dropbox\bsu\labs\lab01\kpolynomial.h
+1505064500 d:\dropbox\bsu\labs\lab01\kpolynomial.h
 	<map>
 	<string>
 	<iostream>

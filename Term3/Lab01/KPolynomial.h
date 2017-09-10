@@ -148,8 +148,9 @@ KPolynomial<T>& KPolynomial<T>::operator=(const KPolynomial<T>& other)
 {
     if (this == &other)
         return *this;
-    Clear();
+    terms.clear();
     terms.insert(other.terms.begin(), other.terms.end());
+    return *this;
 }
 
 template <class T>
