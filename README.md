@@ -41,7 +41,7 @@ My solutions for CS lessons at Belarusian State University.
   * [Asm 4](Term2/Practice/Asm04), [Asm 5](Term2/Practice/Asm05) — Asm string processing
 
 
-## **Term 1:** Programming (teacher: [Guseinova A.S.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
+## **Term 1:** Programming (teacher: [Гусейнова А.С.](http://www.fpmi.bsu.by/main.aspx?guid=32561))
   * [Week 1](Term1/Week01) — Basic Math
   * [Week 2](Term1/Week02) — For/while loops, math
   * [Week 3](Term1/Week03) — Integer math
