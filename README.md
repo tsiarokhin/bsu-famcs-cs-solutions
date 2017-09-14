@@ -4,7 +4,7 @@ My solutions for CS lessons at Belarusian State University.
 
 ## **Term 3**: Programming (teacher: [Сакович В.Ю.](https://fpmi.bsu.by/main.aspx?guid=32521))
   * [Lab 1](Term3/Lab01) — Polynomial container class + WinAPI interface
-
+  * [Lab 2](Term3/Lab01) — Variadic templates (C++0x)
 
 ## **Term 2**: Summer practice (teacher: [Гусейнова А.С.](https://fpmi.bsu.by/main.aspx?guid=32561))
   * ***Day 1***: [task 1](Term2/SummerPractice/1_1), [task 2](Term2/SummerPractice/1_2) — WinAPI + ASM
