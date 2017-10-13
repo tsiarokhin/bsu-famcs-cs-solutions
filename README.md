@@ -6,6 +6,7 @@ My solutions for CS lessons at Belarusian State University.
   * [Lab 1](Term3/Lab01) — Polynomial container class + WinAPI interface
   * [Lab 2](Term3/Lab02) — Variadic templates (C++0x)
   * [Lab 3 & 4](Term3/Lab03-04) — C++ design patterns
+  * [Lab 5](Term3/Lab05) — Java console app
 			
 
 ## **Term 2**: Summer practice (teacher: [Гусейнова А.С.](https://fpmi.bsu.by/main.aspx?guid=32561))
