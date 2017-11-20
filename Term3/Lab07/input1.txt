@@ -1,0 +1,9 @@
+4
+0 0 -4 1
+1 -2 -5 1 
+5 -3 1 -4
+10 2 -1 2
+
+3 2 1 -4
+
+http://www.wolframalpha.com/input/?i=solve+2x+%2B3y+-4z%2Bu%3D3,+x-2y-5z%2Bu%3D2,+5x-3y%2Bz-4u%3D1,+10x+%2B2y+-z%2B2u%3D-4

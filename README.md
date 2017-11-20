@@ -8,6 +8,9 @@ My solutions for CS lessons at Belarusian State University.
   * [Lab 3 & 4](Term3/Lab03-04) — C++ design patterns
   * [Lab 5](Term3/Lab05) — Java console app
   * [Lab 6](Term3/Lab06) — Java string processing
+  * [Lab 7](Term3/Lab07) — Java matrix equation solver
+  * [Lab 8](Term3/Lab08) — Java binary search tree
+  * [Lab 9](Term3/Lab09) — Java GUI(AWT, Swing), abstract classes
 			
 
 ## **Term 2**: Summer practice (teacher: [Гусейнова А.С.](https://fpmi.bsu.by/main.aspx?guid=32561))
