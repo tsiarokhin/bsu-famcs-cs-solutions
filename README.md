@@ -11,6 +11,11 @@ My solutions for CS lessons at Belarusian State University.
   * [Lab 7](Term3/Lab07) — Java matrix equation solver
   * [Lab 8](Term3/Lab08) — Java binary search tree
   * [Lab 9](Term3/Lab09) — Java GUI(AWT, Swing), abstract classes
+  * [Lab 9](Term3/Lab09) — Java GUI(AWT, Swing), abstract classes
+  * [Lab 10](Term3/Lab10) — Java Swing mouse and key events
+  * [Lab 11](Term3/Lab11) — Java Swing drawing application
+  * [Lab 12](Term3/Lab12) — Java Swing tabs, grid layout, buttons, icons
+  * [Lab 13-14](Term3/Lab14) — Java Swing JList MVC, SAX XML parser
 			
 
 ## **Term 2**: Summer practice (teacher: [Гусейнова А.С.](https://fpmi.bsu.by/main.aspx?guid=32561))

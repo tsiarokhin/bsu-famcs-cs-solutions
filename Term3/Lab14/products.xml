@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <name>Tractor</name>
+        <origin>Belarus</origin>
+        <count>100500</count>
+    </product>
+</products>

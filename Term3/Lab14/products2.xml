@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product>
+		<name>fff</name>
+		<origin>fff</origin>
+		<count>1</count>
+	</product>
+	<product>
+		<name>abc</name>
+		<origin>poland</origin>
+		<count>456</count>
+	</product>
+	<product>
+		<name>abc</name>
+		<origin>belarus</origin>
+		<count>1000</count>
+	</product>
+	<product>
+		<name>defgh</name>
+		<origin>belarus</origin>
+		<count>1234</count>
+	</product>
+	<product>
+		<name>cba</name>
+		<origin>russia</origin>
+		<count>2000</count>
+	</product>
+	<product>
+		<name>abc</name>
+		<origin>ukraine</origin>
+		<count>2391</count>
+	</product>
+</products>
