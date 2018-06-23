@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Lab 10.1</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+    <div class="nav">
+        <a class="nav-link" href="index.html">Student Form</a>
+        <a class="nav-link" href="timetable.html">Timetable</a>
+        <a class="nav-link" href="belarus.html">Belarus Map</a>
+    </div>
+
+    <div class="student-form">
+        <form>
+            <fieldset>
+            <legend><strong>Student Form:</strong></legend>
+            <label for="fname">First Name: </label>
+            <input name="fname" type="text" value=""> <br>
+            <label for="lname">Last Name: </label>
+            <input name="lname" type="text" value=""> <br>
+            Sex: 
+            <input checked="checked" name="sex" type="radio" value="male"> Male
+            <input name="sex" type="radio" value="female" > Female  
+            <br><br>
+            Birth Date: <input id="date" type="date"><br><br>
+
+            Photo: <input name="photo" type="file">
+            <br><br>
+            Enrollment Year:
+            <select name="eyear">
+                <option selected="selected" value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+            </select><br> 
+            Graduation Year:
+            <select name="gyear">
+                <option selected="selected" value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+            </select><br> <br> 
+
+            About Yourself:<br>
+            <textarea name="about" cols="50" rows="10"></textarea><br> 
+            
+            <input name="checkbox" type="checkbox" value="1" /> I agree to share this data<br> 
+            <button class="btn submit-btn" type="submit" value="Submit">
+                <img height="15px" src="img/ok.png">
+                Submit
+            </button>
+            <button class="btn cancel-btn">
+                <img height="15px" src="img/cancel.png">
+                Cancel
+            </button>
+            </fieldset>
+        </form>
+    </div>
+      
+    <script src="js/nav.js"></script>            
+
+</body>
+</html>

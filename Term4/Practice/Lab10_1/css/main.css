@@ -1,0 +1,136 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav {
+    margin-top: 30px;
+    margin-bottom: 100px; 
+    text-align: center;
+}
+.nav-link {
+    color: white;
+    font-size: 1.5em;
+    background-color: red;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 10px;
+}
+input, textarea, select {
+    padding: 3px;
+    margin: 2px;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus, select:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.btn {
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 5px;
+    margin-top: 10px;
+}
+.submit-btn {
+    background-color: dodgerblue;
+    color: white;
+    width: 70%;
+
+}
+.cancel-btn {
+    width: 29%;
+}
+
+
+.sectiontimetable {
+	height: 400px;
+	padding: 38px 0 48px;
+}
+
+table {
+	color:#666;
+	width: 95%;
+	font-size:16px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	margin:20px;
+	border:#ccc 1px solid;
+	border-radius:3px;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+table th {
+	padding:21px 25px 22px 25px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+	background: #ededed;
+}
+table tr {
+	text-align: center;
+	padding-left:20px;
+}
+
+
+table td {
+	padding:18px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+}
+
+tr:nth-child(even) {
+    background-color: #CCC 
+}
+tr:nth-child(odd) {
+    background-color: #FFF 
+}
+
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 300px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background: #00d9ff;
+}
+

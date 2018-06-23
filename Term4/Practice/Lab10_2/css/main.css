@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    font-family: 'Press Start 2P', cursive;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+.header > a {
+    color: #000;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.maincolumn {
+    float: left;
+    width: 100%;
+}
+
+.menu {
+    font-size: 1.1em;
+    list-style-type: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.menu > li {
+    background: #ddd;
+    margin: 5px;
+    text-align: center;
+}
+
+.menu > li:hover {
+    background: #f1f1f1;
+}
+
+.menu-current {
+    background-color: lightblue !important;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration-line: none;
+    color: black;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.headline {
+    font-family: 'Press Start 2P', cursive;
+    color: navy;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.pl-logo {
+    height: 200px;
+    float: left;
+    margin: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+    text-align: right;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+.footer > h5, .footer > h4 {
+    margin: 5px;
+}
+
+.logo {
+    text-align: left;
+    width: auto;
+    height: 45px;
+    float: left;
+}
+
+tr:nth-child(even) {
+    background-color: #CCC 
+}
+tr:nth-child(odd) {
+    background-color: #FFF 
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+

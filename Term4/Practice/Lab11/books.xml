@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book isbn="9780596009205" year="2005">
+        <title>Head First Java</title>
+        <author>Kathy Sierra</author>
+        <pages>688</pages>
+    </book>
+	<book isbn="9780070495432" year="2011">
+        <title>Java: The Complete Reference</title>
+        <author>Herbert Schildt</author>
+        <pages>1000</pages>
+    </book>
+	<book isbn="9780131872486" year="2006">
+        <title>Thinking in Java</title>
+        <author>Bruce Eckel</author>
+        <pages>1150</pages>
+    </book>
+	<book isbn="9780132354790" year="2016">
+        <title>Core Java</title>
+        <author>Cay S. Horstmann</author>
+        <pages>1040</pages>
+    </book>
+</books>

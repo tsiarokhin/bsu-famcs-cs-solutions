@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Lab 10.1</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+    <div class="nav">
+        <a class="nav-link" href="index.html">Student Form</a>
+        <a class="nav-link" href="timetable.html">Timetable</a>
+        <a class="nav-link" href="belarus.html">Belarus Map</a>
+    </div>
+
+    <img src="img/belarus.png" alt="" usemap="#Map" />
+    <map name="Map" id="Map">
+        <area href="#Minsk" shape="poly" coords="538,493,557,492,572,494,579,494,574,503,573,514,581,514,583,520,571,525,558,526,540,522,535,513" />
+        <area href="#MinskR" shape="poly" coords="411,294,516,286,577,358,635,357,654,379,666,355,688,368,780,369,781,528,704,570,670,582,654,610,649,632,618,630,621,644,665,663,641,737,661,752,650,792,617,791,589,801,558,795,534,790,524,814,501,799,512,763,494,751,435,715,418,695,415,639,436,610,406,539,420,491,391,474,416,437,381,454,434,416,451,361,416,326,407,306" />
+        <area href="#VitebskR" shape="poly" coords="395,288,472,223,429,214,448,144,560,125,626,51,697,90,777,92,778,139,891,124,952,165,947,232,965,266,935,325,984,357,990,394,916,417,874,419,837,426,782,426,783,368,672,356,656,373,637,352,581,352,512,287" />
+        <area href="#MogilevR" shape="poly" coords="779,436,991,400,1067,480,1056,525,1138,544,1165,594,1153,626,1120,660,1080,672,1020,649,1006,662,973,658,937,626,897,625,884,638,862,637,838,619,820,619,818,637,813,656,802,668,808,685,786,698,763,699,739,706,726,715,711,733,692,745,663,752,645,732,668,660,625,641,657,628,654,614,698,569,721,583,754,556,776,532" />
+        <area href="#GomelR" shape="poly" coords="563,795,601,800,654,795,661,754,723,730,763,705,808,698,807,669,819,625,867,636,929,630,966,642,1005,668,1022,719,1034,777,1057,865,959,878,933,910,910,985,919,1012,909,1036,872,990,792,995,774,1007,749,961,704,983,694,1001,638,956,612,973,588,965,569,989,549,957,551,848,525,818,535,795" />
+        <area href="#GrodnoR" shape="poly" coords="124,733,196,737,212,696,246,703,285,718,319,655,334,613,434,606,394,514,421,488,389,473,378,455,449,366,400,305,390,292,349,304,341,364,317,415,348,434,347,452,314,454,302,429,217,488,168,506,117,500,74,501" />
+        <area href="#BrestR" shape="poly" coords="123,742,198,743,214,703,260,718,292,722,339,618,411,620,422,719,503,764,496,782,524,822,551,846,548,960,520,960,428,927,370,905,313,903,258,903,184,903,129,974,94,960,92,979,80,954,84,867,56,853,38,842,50,789" />
+    </map>
+
+    <p style="text-align: center">Via <a href="http://imagemap-generator.dariodomi.de/">this site</a></p>
+
+
+    <div id="Minsk" class="modalDialog">
+        <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <iframe src="https://en.wikipedia.org/w/index.php?title=Minsk&printable=yes" width="300" height="600" frameBorder="0"></iframe>
+        </div>
+    </div>
+    <div id="MinskR" class="modalDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <iframe src="https://en.wikipedia.org/w/index.php?title=Minsk_Region&printable=yes" width="300" height="600" frameBorder="0"></iframe>
+            </div>
+    </div>
+    <div id="VitebskR" class="modalDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <iframe src="https://en.wikipedia.org/w/index.php?title=Vitebsk_Region&printable=yes" width="300" height="600" frameBorder="0"></iframe>
+            </div>
+    </div>
+    <div id="MogilevR" class="modalDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <iframe src="https://en.wikipedia.org/w/index.php?title=Mogilev_Region&printable=yes" width="300" height="600" frameBorder="0"></iframe>
+            </div>
+    </div>
+    <div id="GomelR" class="modalDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <iframe src="https://en.wikipedia.org/w/index.php?title=Gomel_Region&printable=yes" width="300" height="600" frameBorder="0"></iframe>
+            </div>
+    </div>
+    <div id="GrodnoR" class="modalDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <iframe src="https://en.wikipedia.org/w/index.php?title=Grodno_Region&printable=yes" width="300" height="600" frameBorder="0"></iframe>
+            </div>
+    </div>
+    <div id="BrestR" class="modalDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <iframe src="https://en.wikipedia.org/w/index.php?title=Brest_Region&printable=yes" width="300" height="600" frameBorder="0"></iframe>
+            </div>
+    </div>
+
+    <script src="js/nav.js"></script>      
+    
+    
+</body>
+</html>
