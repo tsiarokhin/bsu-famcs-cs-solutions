@@ -1,6 +1,11 @@
 ﻿# bsu-famcs-cs-solutions
 My solutions for CS lessons at Belarusian State University. 
 
+## **Term 4**: Algorithms and Data Structures ([acm.bsu.by](https://acm.bsu.by/))
+  * [Algorithms repository](https://github.com/teryokhin/bsu-famcs-algo-solutions)
+
+## **Term 4**: Practice (teacher: [Сакович В.Ю.](https://fpmi.bsu.by/main.aspx?guid=32521))
+  * [Practice labs](Term4/Practice)
 
 ## **Term 3**: Programming (teacher: [Сакович В.Ю.](https://fpmi.bsu.by/main.aspx?guid=32521))
   * [Lab 1](Term3/Lab01) — Polynomial container class + WinAPI interface
