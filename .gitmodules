@@ -1,0 +1,3 @@
+[submodule "Term4/Algo"]
+	path = Term4/Algo
+	url = https://github.com/teryokhin/bsu-famcs-algo-solutions.git
